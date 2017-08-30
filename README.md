@@ -1,12 +1,12 @@
 # RNServerIProgrammatically on Android
 We can set RN Server IP in programmatically without 
 
-Just modify the MainApplication.java code
+Just modify the ```MainApplication.java``` code
 
 1. add this method
 
-```
-  private void setRNServerIP() {
+```java
+  private void setRNServerIP() {
     String RN_SERVER_HOST = "$SERVER_IP"; //your RN server IP
     SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
     SharedPreferences.Editor editor = settings.edit();
@@ -16,8 +16,8 @@ Just modify the MainApplication.java code
 ```
 
 2. call this mehoud on onCreate in MainApplication.java. 
-```
-  @Override
+```java
+  @Override
   public void onCreate() {
     super.onCreate();  
     setRNServerIP(); // add
