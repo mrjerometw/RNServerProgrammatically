@@ -6,9 +6,10 @@ When we get this problem
 
 #### Solution
 Just make sure your packager server is running at first.
-<img src="Screenshot_2017-08-30_11-20-52.png" alt="alt text" width="600" height="800">
+<img src="Screenshot_2017-08-30_11-20-52.png" alt="alt text" width="800" height="600">
 
 Then We can set RN Server IP in programmatically without any change host & port in "Dev settings" UI.
+
 Just modify the ```MainApplication.java``` code
 
 1. add this method
