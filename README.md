@@ -1,4 +1,4 @@
-# RNServerIProgrammatically on Android
+# RNServerProgrammatically on Android
 #### Problem
 When we get this problem 
 
