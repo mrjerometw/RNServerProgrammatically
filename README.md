@@ -1,6 +1,14 @@
 # RNServerIProgrammatically on Android
-We can set RN Server IP in programmatically without 
+#### Problem
+When we get this problem 
 
+<img src="Screenshot_20170830-105322.png" alt="alt text" width="600" height="800">
+
+#### Solution
+Just make sure your packager server is running at first.
+<img src="Screenshot_20170830-105322.png" alt="alt text" width="600" height="800">
+
+Then We can set RN Server IP in programmatically without any change host & port in "Dev settings" UI.
 Just modify the ```MainApplication.java``` code
 
 1. add this method
@@ -26,6 +34,6 @@ Just modify the ```MainApplication.java``` code
 ```
 
 3. Restart your app.
-
+<img src="Screenshot_20170830-110854.png" alt="alt text" width="600" height="800">
 
 
